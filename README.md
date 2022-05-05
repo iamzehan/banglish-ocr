@@ -34,5 +34,4 @@ Clone this repository.
         http://127.0.0.1:7860/  
         
 6. The app looks like this -
-
 ![alt text](https://res.cloudinary.com/du4udzfii/image/upload/v1651769751/Screenshot_93_48394c5ea6.png)
