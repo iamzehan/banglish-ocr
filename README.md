@@ -36,3 +36,10 @@ Clone this repository.
         
 6. The app looks like this -
 ![alt text](https://res.cloudinary.com/du4udzfii/image/upload/v1651769751/Screenshot_93_48394c5ea6.png)
+
+
+7. End note
+
+_`runtime.txt` controls your python version, use the current version on your machine and install the packages accordingly.
+`Aptfile` contains the name of the packages that needs to be installed on your host server's machine. 
+`setup.sh` contains the port and server name. `Procfile` runs the command to start the app on the web._
