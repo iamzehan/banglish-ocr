@@ -5,7 +5,10 @@ import re
 from PIL import ImageEnhance, ImageFilter
 from datetime import date
 
+""" 👉 Line 9 👇👇👇 is for windows users, you have to install Tesseract OCR Engine for windows, on your windows machine"""
 # pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+
+""" 👉Line 12 👇👇👇 is for ubuntu users, you have to install Tesseract OCR Engine for ubuntu by running 👉 sudo apt install tesseract-ocr"""
 pytesseract.pytesseract.tesseract_cmd ='/app/.apt/usr/bin/tesseract'
 BD=flag.flag("BD")
 EN=flag.flag("US")
