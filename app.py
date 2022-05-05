@@ -8,7 +8,7 @@ from datetime import date
 # pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 pytesseract.pytesseract.tesseract_cmd ='/app/.apt/usr/bin/tesseract'
 BD=flag.flag("BD")
-EN=flag.flag("EN")
+EN=flag.flag("US")
 def ocr_tool(lang,image):
     im = image
     im = im.filter(ImageFilter.MedianFilter())
