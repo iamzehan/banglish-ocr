@@ -5,8 +5,8 @@ import re
 from PIL import ImageEnhance, ImageFilter
 from datetime import date
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-
+# pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd ='/app/.apt/usr/bin/tesseract'
 BD=flag.flag("BD")
 EN=flag.flag("EN")
 def ocr_tool(lang,image):
