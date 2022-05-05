@@ -13,6 +13,7 @@ Clone this repository.
         virtualenv env
     
 2. Activate Virtual Environment
+   
    for bash
    
         source env/Scripts/activate
