@@ -1,17 +1,22 @@
-# Banglish-OCR Demo
+# Banglish-OCR
 
 ## Important
 You are going to need Tesseract OCR engine to run this app, go to the link below to download and install the engine.
 
       https://tesseract-ocr.github.io/tessdoc/Downloads.html
-      
-An interactive Optical Character Recognition Prototype for Bangla and English. Made with Gradio and Pytesseract.
 
-Clone this repository.
+<h3 align = "center"> Or</h3>
+
+      sudo apt install tesseract-ocr
+      
+# About this Repository
+Banglish OCR is an interactive Optical Character Recognition Prototype for Bangla and English. Made with Gradio and Pytesseract.
+
+## Clone it
 
       https://github.com/iamzehan/banglish-ocr.git
 
-## Follow the steps below
+## Follow the steps below to run this on your local machine.
 
 1. Create Virtual Environment
 
